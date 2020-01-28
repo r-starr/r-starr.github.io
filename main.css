@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(240, 213, 248);
+    color: rgb(39, 37, 39);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(210, 66, 247);
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(123, 18, 150);
+    transition: 0.5s;
+}
+
+#pageContent {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#boxContent {
+ border: 1px solid rgb(39, 37, 39);
+ background-color: white;
+ box-shadow: 7px 7px rgb(39, 37, 39);
+}
+
+#title {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+
+#navigation {
+    width: 100%;
+    background-color: rgb(39, 37, 39);
+    text-align: center;
+}
+
+a.navlink {
+    text-transform: lowercase;
+    color: rgb(210, 66, 247);
+}
+a.navlink:hover {
+    color: rgb(210, 66, 247);
+}
+
+.navlink {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    transition: 0.5s;
+    background-color: rgb(39, 37, 39);
+}
+
+.navlink:hover {
+    background-color: rgb(22, 21, 22);
+    transition: 0.5s;
+}
+
+#description {
+    width: 90%;
+    padding: 20px;
+}
+
+.centeredHoriz {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centeredVert {
+    margin-top: auto;
+    margin-bottom: auto;
+}
