@@ -2,27 +2,21 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', sans-serif;
-    background-color: rgb(240, 213, 248);
+    background-color: rgb(247, 237, 218);
     color: rgb(39, 37, 39);
 }
 
 a {
     text-decoration: none;
-    color: rgb(210, 66, 247);
+    color: rgb(204, 169, 72);
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
 
 a:hover {
-    color: rgb(123, 18, 150);
+    color: rgb(167, 137, 57);
     transition: 0.5s;
     -webkit-transition: 0.5s;
-}
-
-#boxContent {
- border: 1px solid rgb(39, 37, 39);
- background-color: white;
- box-shadow: 7px 7px rgb(39, 37, 39);
 }
 
 #title {
@@ -40,10 +34,10 @@ a:hover {
 
 a.navlink {
     text-transform: lowercase;
-    color: rgb(210, 66, 247);
+    color: rgb(245, 209, 110);
 }
 a.navlink:hover {
-    color: rgb(210, 66, 247);
+    color: rgb(245, 209, 110);
 }
 
 .navlink {
@@ -70,9 +64,4 @@ a.navlink:hover {
 .centered {
     margin-left: auto;
     margin-right: auto;
-}
-
-.centeredVert {
-    margin-top: auto;
-    margin-bottom: auto;
 }
