@@ -10,16 +10,13 @@ a {
     text-decoration: none;
     color: rgb(210, 66, 247);
     transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 
 a:hover {
     color: rgb(123, 18, 150);
     transition: 0.5s;
-}
-
-#pageContent {
-    width: 50%;
-    margin-top: 100px;
+    -webkit-transition: 0.5s;
 }
 
 #boxContent {
@@ -55,12 +52,14 @@ a.navlink:hover {
     padding: 20px;
     margin: 0px;
     transition: 0.5s;
+    -webkit-transition: 0.5s;
     background-color: rgb(39, 37, 39);
 }
 
 .navlink:hover {
     background-color: rgb(22, 21, 22);
     transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 
 #description {
