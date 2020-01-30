@@ -1,0 +1,10 @@
+#pageContent {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#boxContent {
+    border: 1px solid rgb(39, 37, 39);
+    background-color: white;
+    box-shadow: 7px 7px rgb(39, 37, 39);
+   }
